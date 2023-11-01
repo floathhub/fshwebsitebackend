@@ -3,11 +3,13 @@ import { QuoteService } from "./quote.service";
 
 @Controller('quote')
 export class QuoteController {
-    constructor(private quoteService: QuoteService){}
+    constructor(private quoteService: QuoteService){
+
+    }
 
     @Get('get-quotes')
     getQuotes(){
-        return 'This is all quotes'
+       return 'hiiio'
 
     }
 
